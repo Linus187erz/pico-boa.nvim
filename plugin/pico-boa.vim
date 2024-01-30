@@ -1,1 +1,1 @@
-echo "Hello Pico-Boa"
+echo "Hello Pico-Boa from vimscript!"
