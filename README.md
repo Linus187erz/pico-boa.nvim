@@ -3,6 +3,7 @@ A Micropython plugin for Vim
 
 ## Add Lua functionality
 Add this to your nvim config
-'''
-require('my_plugin').setup()
-'''
+```
+local boa = require('pico-boa')
+vim.keymap.set("n", "<leader>pp", function() boa.setup() end)
+```
